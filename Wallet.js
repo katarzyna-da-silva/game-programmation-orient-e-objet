@@ -19,12 +19,12 @@ class Wallet {
         } else if (type === '-') {
           return _money -= value
         } else {
-          throw new Error('podana wartosc jest nieprawidlowa')
+          throw new Error('le numéro fourni nest pas valide')
         }
     }
       else {
         console.log(typeof value);
-        throw new Error('nieprawidlowa liczba');
+        throw new Error('le numéro fourni nest pas valide');
       }
     }
   }

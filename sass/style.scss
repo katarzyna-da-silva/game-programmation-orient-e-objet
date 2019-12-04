@@ -2,9 +2,14 @@
 
 
 body {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
+  background-image: url(https://images.unsplash.com/photo-1567450121326-28da3797155d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+  max-width: 100%;
+  background-size: cover;
+  background-position: center;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -16,6 +21,7 @@ body {
     text-transform: uppercase;
     text-decoration: underline;
     margin-bottom: 30px;
+    color: rgb(223, 210, 26);
   }
   
   .wrap {
@@ -32,7 +38,7 @@ body {
     height: 30vh;
     flex-grow: 1;
     margin: 10px;
-    border: 3px solid grey;
+    border: 3px solid rgb(84, 238, 13);
   }
   
   .play {
@@ -44,8 +50,9 @@ body {
     font-size: 28px;
     padding: 20px;
     width: 350px;
-    border: 1px solid black;
+    border: 1px solid #54f515;
     text-align: center;
+    color: rgb(0, 0, 0);
   }
   
   .play button {
@@ -53,9 +60,9 @@ body {
     height: 60px;
     margin-left: 50px;
     font-size: 28px;
-    text-transform: uppercase;background-color: #333;
-    color: white;
-    coursor: pointer;
+    text-transform: uppercase;background-color: rgb(117, 144, 151);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
     letter-spacing: 4px;
   }
   
@@ -64,4 +71,9 @@ body {
     padding-top: 30px;
     font-size: 18px;
     font-weight: bold;
+    color: rgb(255, 255, 255);
+  }
+
+  span {
+    color: rgb(241, 217, 4);
   }
